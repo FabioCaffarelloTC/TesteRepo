@@ -4,6 +4,7 @@ from flask import jsonify
 
 @bp.route('/result', methods=['POST', 'GET'])
 def index():
+    # Example
     example = [
         {
             'author': {'username': 'John'},
