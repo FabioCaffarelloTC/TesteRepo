@@ -15,5 +15,4 @@ def index():
         }
     ]
 
-
     return jsonify(example)
